@@ -40,20 +40,30 @@ body {
     float: right;
     text-align: center;
     border-bottom: solid 1px #dddddd;
-    
 }
 
 .links {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 20px;
-    margin-right: 100px;
-    float: right;
-    display: inline-block;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #666666;
-    list-style: none;
 }
 
+.a {
+    float: left;
+    margin-left: 350px;
+    padding-top: 30px;
+}
+
+.p {
+    float: left;
+    margin-left: 100px;
+    padding-top: 30px;
+}
+
+.c {
+    float: left;
+    margin-left: 100px;
+    padding-top: 30px;
+}
   
 .background {
     clear: both;
@@ -61,10 +71,10 @@ body {
     height: 100vh;
     background-image: url(../images/Subtle-Grunge-Grey-Seamless-Pattern-For-Website-Background.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    position: relative;
     padding-top: 20px;
-
 }
+
 
 .contentback {
     background-color: #ffffff;
@@ -117,4 +127,37 @@ hr {
     border-top: solid 5px #4aaaa5;
     background-color: #666666;
     color: #ffffff;
+}
+
+.container_form {
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+#name {
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+#email {
+    width: 500px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+#messages {
+    width: 800px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#submit {
+    width: 55px;
+    height: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #4aaaa5;
 }
