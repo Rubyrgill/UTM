@@ -1,0 +1,120 @@
+/* header {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-block-end: 1px #dddddd;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+ */
+
+ * {
+     text-decoration: none;
+ }
+
+
+body {
+    background-color: #ffffff;
+}
+
+.headlogo {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 25px;
+    width: 150px;
+    padding: 30px;
+    font-weight: 700;
+    display: block;
+    margin-left: 170px;
+    text-align: center; 
+    float: left;
+    border: solid 2px #dddddd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#topborder {
+    background-color: #ffffff;
+    display: inline-block;
+    list-style: none;
+    width: 100%;
+    font-size: 15px;
+    float: right;
+    text-align: center;
+    border-bottom: solid 1px #dddddd;
+    
+}
+
+.links {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin-right: 100px;
+    float: right;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #666666;
+    list-style: none;
+}
+
+  
+.background {
+    clear: both;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/Subtle-Grunge-Grey-Seamless-Pattern-For-Website-Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+
+}
+
+.contentback {
+    background-color: #ffffff;
+    border: solid #dddddd 2px;
+    width: 960px;
+    float: center;
+    margin-left: 170px;
+}
+
+#pic {
+    position: relative;
+    float: left;
+    margin: 20px;
+}
+
+.subtitle {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-size: 30px; 
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text {
+    padding-top: 20px;
+    height: 400px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 50px;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5px;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-style: inset;
+    border-width: 1px;
+    color: #dddddd;
+}
+
+
+.footer {
+    width: 700px;
+    padding-left: 580px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: solid 5px #4aaaa5;
+    background-color: #666666;
+    color: #ffffff;
+}
