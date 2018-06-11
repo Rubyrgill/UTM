@@ -7,4 +7,4 @@ HTML
 CSS (Hover features, positioning, Google fonts)
 
 Results:
-![Alt text] ("./Results/contact.png")
+![] (./Results/contact.png)
