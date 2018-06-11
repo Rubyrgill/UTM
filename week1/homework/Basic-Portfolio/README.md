@@ -1,2 +1,10 @@
+The Basic-Portfolio Assignment
 
-The basic portfolio project assignment. 
+Objective: Create a basic portfolio layout using image guides, with html and css.
+
+Resources Used:
+HTML
+CSS (Hover features, positioning, Google fonts)
+
+Results:
+![Alt text] ("./Results/contact.png")
