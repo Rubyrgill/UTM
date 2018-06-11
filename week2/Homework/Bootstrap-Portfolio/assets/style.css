@@ -1,0 +1,109 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+.nav {
+  background-color: white;
+  width: 100%;
+  height: 90px;
+  margin: 0 auto;
+  border-bottom: 2px solid lightgray;
+}
+
+.bar {
+  margin-left: 350px;
+  padding-top: 25px;
+  font-size: 15px;
+}
+
+.nav-item {
+  float: right;
+  margin: 2px;
+  border-right: solid 1px lightgray;
+  margin-top: 10px;
+  padding-left: 10px;
+  color: lightgrey;
+}
+
+a {
+  color: grey;
+}
+
+a:hover {
+  color: #4aaaa5;
+  border: solid 2px #4aaaa5;
+}
+
+.logo {
+  background-color: white;
+  margin-left: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background-color: #4aaaa5;
+  color: white;
+  border: 1px solid lightgray;
+}
+
+.content {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  border: solid 2px lightgray;
+  background-color: white;
+  margin-bottom: 100px;
+  padding: 30px;
+}
+
+.imgg {
+  float: left;
+  position: relative;
+  margin: 10px;
+  width: 50%;
+  height: 50%;
+}
+
+.footer {
+  background-color: white;
+  height: 90px;
+  border-top: 2px solid lightgray;
+  position: sticky;
+  width: 100%;
+}
+
+#copyright {
+  text-align: center;
+  margin-left: 45%;
+}
+
+.card {
+  position: relative;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+.form-group {
+  float: center;
+  padding-right: 100px;
+  float: center;
+}
+
+#submit {
+  background-color: #4aaaa5;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#submit:hover {
+  border: 5px solid #4aaaa5;
+}
+
+#side {
+  margin-top: 100px;
+  padding: 100px;
+}
