@@ -4,79 +4,88 @@
 <head>
     <meta charset="utf-8">
     <title>Ruby Gill</title>
+    <!--link to reset css-->
     <link href="./assets/css/reset.css" rel="stylesheet" type="text/css">
+    <!--link to stylesheet-->
     <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+    <!--attached icon in tab bar-->
     <link href="assets/images/favicon_r.png" rel="icon" type="favicon">
 </head>
 
+
 <body>
 
- <!--Page header, sends back to index page-->
-<header>
-    <section id="topborder">
-        <div>
-        <a href="index.html" class="headlogo">Ruby Gill</a>
-        </div>
+    <!--page naviagation and logo bar-->
+    <header>
+        <section id="topborder">
+            <div>
+                <a href="index.html" class="headlogo">Ruby Gill</a>
+
+                <!--links to different pages-->
+                <nav>
+                    <ul class="links">
+
+                        <div class="a">
+                            <li>
+                                <a href="index.html">About</a>
+                            </li>
+                        </div>
+
+                        <div class="p">
+                            <li>
+                                <a href="portfolio.html">Portfolio</a>
+                            </li>
+                        </div>
+
+                        <div class="c">
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
 
 
-<!--Top Border-->
-        <nav>
-            <ul class="links">
-                
-                <div class="a">
-                   <li><a href="index.html">About</a></li>
-                    </div>
 
-                <div class="p">
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    </div>
-
-                <div class="c">
-                    <li><a href="contact.html">Contact</a></li>
-                    </div>
-            </ul>
-        </nav>
-    </section>
-</header>
-
-
-<!--background image-->
+    <!--background image-->
     <section class="background">
 
- <main>
-    <article class="contentback">
-        <h2 class="subtitle"> Portfolio</h2>
-        <hr class="linebreak">
-    
-    <section class="portfolio">
-        <div id="p1">  
-           <h3 class="p1title">Project One</h3>
-            <a href="#">
-                <img src="assets/images/coming-soon.jpg" alt="coming soon image"
-                style="width: 200px; height:200px">
-             </a>
-            
-        </div>
-        
-        <div id="p2">
-            <h3 class="p2title">Project Two</h3>
-            <a href="#">
-                    <img src="assets/images/coming-soon.jpg" alt="coming soon image"
-                    style="width: 200px; height:200px">
-                </a>
-            
-        </div>
+        <main>
+            <article class="contentback">
 
+                <h2 class="subtitle"> Portfolio</h2>
+                <hr class="linebreak">
 
-    </section>
+                <section class="portfolio">
+                    <!--project one-->
+                    <div id="p1" class="hvr-bounce-in">
+                        <h3 class="p1title">Project One</h3>
+                        <a href="#">
+                            <!--image of project one-->
+                            <img src="assets/images/coming-soon.jpg" alt="coming soon image" style="width: 200px; height:200px">
+                        </a>
+                    </div>
 
-    </article>
-    </section>
- </main>
+                    <!--project two-->
+                    <div id="p1" class="hvr-bounce-in">
+                        <h3 class="p1title">Project One</h3>
+                        <a href="#">
+                            <!--image of project one-->
+                            <img src="assets/images/coming-soon.jpg" alt="coming soon image" style="width: 200px; height:200px">
+                        </a>
+                    </div>
+            </article>
+        </main>
+        </section>
 
- <footer class="footer">
-    <small>Copyright &copy;</small>
- </footer>
+        <!--footer with copyright symbol-->
+        <footer class="footer">
+            <small>Copyright &copy;</small>
+        </footer>
 
 </body>
+
 </html>

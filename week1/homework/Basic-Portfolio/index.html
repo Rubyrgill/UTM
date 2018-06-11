@@ -4,59 +4,77 @@
 <head>
     <meta charset="utf-8">
     <title>Ruby Gill</title>
+    <!--link to reset css-->
     <link href="./assets/css/reset.css" rel="stylesheet" type="text/css">
+    <!--link to stylesheet-->
     <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+    <!--attached icon in tab bar-->
     <link href="assets/images/favicon_r.png" rel="icon" type="favicon">
 </head>
 
+
 <body>
 
- <!--Page header, sends back to index page-->
-<header>
-    <section id="topborder">
-        <div>
-        <a href="index.html" class="headlogo">Ruby Gill</a>
+    <!--page naviagation and logo bar-->
+    <header>
+        <section id="topborder">
+            <div>
+                <a href="index.html" class="headlogo">Ruby Gill</a>
 
-        <nav>
-            <ul class="links">
-                
-                <div class="a">
-                   <li><a href="index.html">About</a></li>
-                    </div>
-                    
-                <div class="p">
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    </div>
+                <!--links to different pages-->
+                <!--** line seperation between the navigation headings did not align, added hover effect instead-->
+                <nav>
+                    <ul class="links">
 
-                <div class="c">
-                    <li><a href="contact.html">Contact</a></li>
-                    </div>
-            </ul>
-        </nav>
-    </div>
-    </section>
-</header>
+                        <div class="a">
+                            <li>
+                                <a href="index.html">About</a>
+                            </li>
+                        </div>
+
+                        <div class="p">
+                            <li>
+                                <a href="portfolio.html">Portfolio</a>
+                            </li>
+                        </div>
+
+                        <div class="c">
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
 
 
-<!--background image-->
+    <!--background image-->
     <section class="background">
 
- <main>
-    <article class="contentback">
-        <h2 class="subtitle"> About Me</h2>
-        <hr class="linebreak">
-        <figure>
-            <img id="pic" src="./assets/images/Portrait_Placeholder.png" width= "200px" height= "200px" alt="Ruby Gill">
-        </figure>
+        <!--main body content, and images-->
+        <main>
+            <article class="contentback">
+                <h2 class="subtitle"> About Me</h2>
+                <hr class="linebreak">
 
-        <p class="text"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-    </article>
+                <!--image aligned-->
+                <figure>
+                    <img id="pic" src="./assets/images/me.jpg" width="230px" height="220px" alt="Ruby Gill">
+                </figure>
+
+                <p class="text"> My name is Ruby Gill and I am currently a student of the U of T Coding Bootcamp.</p>
+
+            </article>
+        </main>
     </section>
- </main>
 
- <footer class="footer">
-    <small>Copyright &copy;</small>
- </footer>
+    <!--footer with copyright symbol-->
+    <footer class="footer">
+        <small>Copyright &copy;</small>
+    </footer>
 
 </body>
+
 </html>

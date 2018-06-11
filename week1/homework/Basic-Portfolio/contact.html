@@ -4,100 +4,100 @@
 <head>
     <meta charset="utf-8">
     <title>Ruby Gill</title>
+        <!--link to reset css-->
     <link href="./assets/css/reset.css" rel="stylesheet" type="text/css">
+        <!--link to stylesheet-->
     <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+        <!--attached icon in tab bar-->
     <link href="assets/images/favicon_r.png" rel="icon" type="favicon">
 </head>
 
+
 <body>
 
- <!--Page header, sends back to index page-->
-<header>
-    <section id="topborder">
-        <div>
-        <a href="index.html" class="headlogo">Ruby Gill</a>
-        </div>
+<!--page naviagation and logo bar-->
+    <header>
+        <section id="topborder">
+             <div>
+                 <a href="index.html" class="headlogo">Ruby Gill</a>
 
-
-<!--Top Border-->
-        <nav>
-            <ul class="links">
+            <!--links to different pages-->
+             <nav>
+                 <ul class="links">
                 
-                <div class="a">
-                   <li><a href="index.html">About</a></li>
-                    </div>
+                     <div class="a">
+                         <li><a href="index.html">About</a></li>
+                         </div>
+                    
+                    <div class="p">
+                         <li><a href="portfolio.html">Portfolio</a></li>
+                        </div>
 
-                <div class="p">
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    </div>
+                     <div class="c">
+                         <li><a href="contact.html">Contact</a></li>
+                        </div>
+                 </ul>
+             </nav>
+            </div>
+         </section>
+    </header>
 
-                <div class="c">
-                    <li><a href="contact.html">Contact</a></li>
-                    </div>
-            </ul>
-        </nav>
-    </section>
-</header>
 
 
 <!--background image-->
     <section class="background">
 
- <main>
-    <article class="contentback">
-        <h2 class="subtitle"> Contact</h2>
-        <hr class="linebreak">
-        <!--Name Label-->
+        <main>
+            <article class="contentback">
+                 <h2 class="subtitle"> Contact</h2>
+                 <hr class="linebreak">
 
-        <div class="container_form">
+        <!--Form container-->
+            <div class="container_form">
 
-        <ul form action="mailto:rubygillr@gmail.com" method="post">
-            <li>
-                <label for="name">Name</label>
-                <br>
-                <input type="text" id="name" name="firstlastname" 
-                    placeholder="John Smith">
-            </li>
+                <ul form action="mailto:rubygillr@gmail.com" method="post">
+                <!--name label-->
+                    <li>
+                     <label for="name">Name</label>
+                        <br>
+                     <input type="text" id="name" name="firstlastname" 
+                     placeholder="John Smith">
+                    </li>
 
-        <!--Email Label-->
-            <li>
-                <label for="email">Email</label>
-                <br>
-                <input type="text" id="email" name="emailaddress"
-                    Placeholder="example@gmail.com">
-             </li>   
+                <!--Email Label-->
+                    <li>
+                     <label for="email">Email</label>
+                         <br>
+                     <input type="text" id="email" name="emailaddress"
+                     Placeholder="example@gmail.com">
+                    </li>   
     
         
-        <!--Message Label-->
-             <li>
-                <label for="messages">Message</label> 
-                <br>
-                     <textarea type="text" id="messages" name="messagecontent"
-                     placeholder=""></textarea>
-            </li>
-    
+                <!--Message Label-->
+                    <li>
+                      <label for="messages">Message</label> 
+                        <br>
+                      <textarea type="text" id="messages" name="messagecontent"
+                      placeholder=""></textarea>
+                    </li>
+
+                </ul>
             
         <!--submit Label-->
-        <div id="submit">
-            <input type="submit" value="Submit">
-        </div>
+                <div id="submit" class="hvr-bounce-in">
+                    <input type="submit" value="Submit">
+                </div>
     
-            </form>
-        </div>
+                </form>
+            </div>
     
+        </main>
     </section>
- </main>
-
- <footer class="footer">
-    <small>Copyright &copy;</small>
- </footer>
-
-
-</body>
-
-</html>
-
+ 
+<!--footer with copyright symbol-->
+    <footer class="footer">
+        <small>Copyright &copy;</small>
+    </footer>
 
 </body>
-
 </html>
