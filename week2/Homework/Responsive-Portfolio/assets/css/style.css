@@ -1,0 +1,255 @@
+/* header {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-block-end: 1px #dddddd;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+ */
+
+* {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.headlogo {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 30px;
+  font-weight: 700;
+  display: block;
+  float: left;
+  border: solid 2px #dddddd;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 100px;
+}
+
+.links {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #666666;
+  padding-top: 20px;
+  margin-right: 100px;
+}
+
+.a {
+  float: right;
+  position: relative;
+  padding-top: 30px;
+  padding: 20px;
+}
+
+a:link,
+a:visited {
+  color: #666666;
+}
+a:hover {
+  color: #4aaaa5;
+  border: 2px solid #4aaaa5;
+}
+
+.headlogo:link,
+.headlogo:visited {
+  color: #ffffff;
+}
+
+.headlogo:hover {
+  border: 2px solid white;
+}
+
+.p {
+  float: right;
+  position: relative;
+  padding-top: 30px;
+  padding: 20px;
+}
+
+.c {
+  float: right;
+  position: relative;
+  padding-top: 30px;
+  padding: 20px;
+}
+
+.background {
+  clear: both;
+  height: 100vh;
+  background-image: url(../images/Subtle-Grunge-Grey-Seamless-Pattern-For-Website-Background.jpg);
+  position: relative;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.contentback {
+  background-color: #ffffff;
+  border: solid #dddddd 2px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+#pic {
+  position: relative;
+  float: left;
+  margin: 20px;
+  width: 20%;
+  height: 20%;
+}
+
+.subtitle {
+  color: #4aaaa5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.text {
+  padding-top: 20px;
+  height: 400px;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5px;
+  margin-left: 90px;
+  margin-right: 90px;
+  border-style: inset;
+  border-width: 1px;
+  color: #dddddd;
+}
+
+.footer {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: solid 5px #4aaaa5;
+  background-color: #666666;
+  color: #ffffff;
+  text-align: center;
+}
+
+.container_form {
+  color: #666666;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+#name {
+  height: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+#name:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+#email {
+  height: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+#email:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+#messages {
+  height: 100px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+#messages:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+input [type="button"],
+input[type="submit"],
+input [type="reset"] {
+  background-color: #4aaaa5;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover,
+.hvr-bounce-in:focus,
+.hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.portfolio {
+  float: center;
+  padding: 30px;
+  position: relative;
+  background: #ffffff;
+  height: 300px;
+  margin: 20px;
+}
+
+#p1 {
+  float: left;
+  padding-right: 50px;
+}
+
+#p2 {
+  float: center;
+}
+
+.p1title {
+  position: absolute;
+  margin-top: 160px;
+  font-size: 20px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.p2title {
+  position: absolute;
+  margin-top: 160px;
+  font-size: 20px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+@media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 640px) {
+}
