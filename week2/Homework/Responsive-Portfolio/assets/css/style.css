@@ -246,10 +246,82 @@ input [type="reset"] {
 }
 
 @media screen and (max-width: 980px) {
+  .contentback {
+    float: left;
+    margin-left: 5%;
+    padding: 0;
+  }
+  .text {
+    position: relative;
+  }
+  .container_form {
+    width: 500px;
+  }
+  .imgg {
+    position: relative;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  .contentback {
+    float: center;
+    width: 90%;
+    margin: 5%;
+  }
+  .text {
+    position: relative;
+    margin: 20px;
+  }
+  .container_form {
+    width: 100%;
+    float: center;
+  }
+  .imgg {
+    position: relative;
+  }
+  .background {
+    background-color: lightgray;
+    background-image: none;
+  }
 }
 
 @media screen and (max-width: 640px) {
+  .contentback {
+    float: center;
+    width: 90%;
+    margin: 5%;
+  }
+  .headlogo {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .links {
+    float: center;
+    padding-right: 50px;
+    padding-left: 10px;
+  }
+  .text {
+    position: relative;
+    margin: 20px;
+  }
+  .container_form {
+    width: 100%;
+    float: center;
+  }
+  .imgg {
+    position: relative;
+  }
+  .background {
+    background-color: lightgray;
+    background-image: none;
+  }
+  .portfolio {
+    margin: 0;
+    float: center;
+  }
+  #p1 {
+    width: 500px;
+  }
 }
