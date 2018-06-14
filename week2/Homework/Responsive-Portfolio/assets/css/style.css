@@ -283,6 +283,10 @@ input [type="reset"] {
     background-color: lightgray;
     background-image: none;
   }
+
+  #p1 {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -301,6 +305,7 @@ input [type="reset"] {
     float: center;
     padding-right: 50px;
     padding-left: 10px;
+    margin-right: 0px;
   }
   .text {
     position: relative;
@@ -323,5 +328,8 @@ input [type="reset"] {
   }
   #p1 {
     width: 500px;
+  }
+  #p1 {
+    margin-bottom: 20px;
   }
 }
