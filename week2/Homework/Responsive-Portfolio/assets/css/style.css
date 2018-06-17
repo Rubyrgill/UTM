@@ -1,23 +1,19 @@
-/* header {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    border-block-end: 1px #dddddd;
-    font-family: Georgia, 'Times New Roman', Times, serif;    
-}
- */
-
+/*All html elements*/
 * {
   text-decoration: none;
 }
 
+/*All website container*/
 .container {
   width: 100%;
 }
 
+/*Anything in between <body> & </body>*/
 body {
   background-color: #ffffff;
 }
 
+/*Logo on left side, Name*/
 .headlogo {
   background-color: #4aaaa5;
   color: #ffffff;
@@ -31,13 +27,14 @@ body {
   margin-left: 100px;
 }
 
+/*Links to different webpages*/
 .links {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #666666;
   padding-top: 20px;
   margin-right: 100px;
 }
-
+/* About page link specifications*/
 .a {
   float: right;
   position: relative;
@@ -53,6 +50,7 @@ a:hover {
   color: #4aaaa5;
   border: 2px solid #4aaaa5;
 }
+/*Left side logo, name hover features*/
 
 .headlogo:link,
 .headlogo:visited {
@@ -62,7 +60,7 @@ a:hover {
 .headlogo:hover {
   border: 2px solid white;
 }
-
+/*Portfolio link to page features*/
 .p {
   float: right;
   position: relative;
@@ -70,6 +68,7 @@ a:hover {
   padding: 20px;
 }
 
+/*Contact link to page features*/
 .c {
   float: right;
   position: relative;
@@ -77,6 +76,7 @@ a:hover {
   padding: 20px;
 }
 
+/*Background image behind .contentback container*/
 .background {
   clear: both;
   height: 100vh;
@@ -86,6 +86,7 @@ a:hover {
   width: 100%;
 }
 
+/*Container for the main content*/
 .contentback {
   background-color: #ffffff;
   border: solid #dddddd 2px;
@@ -93,6 +94,7 @@ a:hover {
   margin-left: 100px;
 }
 
+/*Picture for About page, positioned left of text*/
 #pic {
   position: relative;
   float: left;
@@ -101,6 +103,7 @@ a:hover {
   height: 20%;
 }
 
+/*Subtitle specifications for About, Portfolio and Contact pages*/
 .subtitle {
   color: #4aaaa5;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -111,13 +114,15 @@ a:hover {
   margin-bottom: 30px;
 }
 
+/*text within the content body*/
 .text {
   padding-top: 20px;
-  height: 400px;
+  height: 300px;
   color: grey;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Line break between, used to seperate subtitle on each page from content*/
 hr {
   display: block;
   margin-top: 0.5px;
@@ -128,6 +133,7 @@ hr {
   color: #dddddd;
 }
 
+/*footer design */
 .footer {
   width: 100%;
   padding-top: 20px;
@@ -138,6 +144,7 @@ hr {
   text-align: center;
 }
 
+/*Form for contact page*/
 .container_form {
   color: #666666;
   font-family: Arial, Helvetica, sans-serif;
@@ -145,6 +152,7 @@ hr {
   margin-left: 50px;
 }
 
+/*Name section on form*/
 #name {
   height: 20px;
   margin-bottom: 20px;
@@ -155,6 +163,7 @@ hr {
   background-color: lightgoldenrodyellow;
 }
 
+/*Email section on form*/
 #email {
   height: 20px;
   margin-bottom: 20px;
@@ -165,6 +174,7 @@ hr {
   background-color: lightgoldenrodyellow;
 }
 
+/*Messages section on form*/
 #messages {
   height: 100px;
   margin-bottom: 10px;
@@ -175,6 +185,7 @@ hr {
   background-color: lightgoldenrodyellow;
 }
 
+/*Submit section on form*/
 input [type="button"],
 input[type="submit"],
 input [type="reset"] {
@@ -185,6 +196,7 @@ input [type="reset"] {
   margin-bottom: 20px;
 }
 
+/*Hover feature on buttons/containers*/
 .hvr-bounce-in {
   display: inline-block;
   vertical-align: middle;
@@ -203,6 +215,7 @@ input [type="reset"] {
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
+/*Portfolio boxes*/
 .portfolio {
   float: center;
   padding: 30px;
@@ -212,6 +225,7 @@ input [type="reset"] {
   margin: 20px;
 }
 
+/*Portfolio boxes positioning individually*/
 #p1 {
   float: left;
   padding-right: 50px;
@@ -221,6 +235,7 @@ input [type="reset"] {
   float: center;
 }
 
+/*Portfolio boxes titles individual*/
 .p1title {
   position: absolute;
   margin-top: 160px;
@@ -233,6 +248,7 @@ input [type="reset"] {
   padding-right: 55px;
 }
 
+/*Portfolio boxes* titles individuals*/
 .p2title {
   position: absolute;
   margin-top: 160px;
@@ -245,6 +261,56 @@ input [type="reset"] {
   padding-right: 55px;
 }
 
+/*Animation About page*/
+/*div for the logo*/
+#animation {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background-color: pink;
+  position: relative;
+  animation: move 5s infinite;
+  animation-name: move;
+  animation-duration: 4s;
+}
+
+/*logo in animated div*/
+#round {
+  width: 100px;
+}
+/*movement of logo and div, on about page*/
+@keyframes move {
+  0% {
+    background-color: #4aaaa5;
+    left: 0%;
+    top: 0%;
+  }
+  25% {
+    background-color: #48d1cc;
+    left: 25%;
+    top: 0px;
+  }
+  50% {
+    background-color: #40e0d0;
+    left: 45%;
+    top: 0px;
+  }
+  75% {
+    background-color: #afeeee;
+    left: 65%;
+    top: 0px;
+  }
+  100% {
+    background-color: #d1eeee;
+    left: 85%;
+    top: 0px;
+  }
+}
+
+/*Media Queries for responsiveness*/
+
+/*980px Media Query*/
 @media screen and (max-width: 980px) {
   .contentback {
     float: left;
@@ -262,6 +328,7 @@ input [type="reset"] {
   }
 }
 
+/*768px Media Query*/
 @media screen and (max-width: 768px) {
   .contentback {
     float: center;
@@ -289,6 +356,7 @@ input [type="reset"] {
   }
 }
 
+/*640px Media Query*/
 @media screen and (max-width: 640px) {
   .contentback {
     float: center;

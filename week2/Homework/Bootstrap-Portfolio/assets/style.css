@@ -1,8 +1,13 @@
+/*Entire Boday font, and font size*/
+
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
 }
 
+/*Navigation bar, links and logo style*/
+
+/* Box that contains both the logo and links*/
 .nav {
   background-color: white;
   width: 100%;
@@ -17,6 +22,7 @@ body {
   font-size: 15px;
 }
 
+/*Links design*/
 .nav-item {
   float: right;
   margin: 2px;
@@ -26,6 +32,7 @@ body {
   color: lightgrey;
 }
 
+/*About link: hover, and design*/
 a {
   color: grey;
 }
@@ -35,6 +42,7 @@ a:hover {
   border: solid 2px #4aaaa5;
 }
 
+/*Page logo design*/
 .logo {
   background-color: white;
   margin-left: 150px;
@@ -49,6 +57,7 @@ a:hover {
   border: 1px solid lightgray;
 }
 
+/*Main content, box that holds main body*/
 .content {
   margin-left: 100px;
   margin-right: 100px;
@@ -59,6 +68,7 @@ a:hover {
   padding: 30px;
 }
 
+/*Introduction image*/
 .imgg {
   float: left;
   position: relative;
@@ -67,6 +77,7 @@ a:hover {
   height: 50%;
 }
 
+/*Footer design*/
 .footer {
   background-color: white;
   height: 90px;
@@ -75,24 +86,26 @@ a:hover {
   width: 100%;
 }
 
+/*copyright symbol bottom footer*/
 #copyright {
   text-align: center;
   margin-left: 45%;
 }
 
+/*sidebar on contact page*/
 .card {
   position: relative;
   float: left;
   padding: 10px;
   margin: 10px;
 }
-
+/*Contact form*/
 .form-group {
   float: center;
   padding-right: 100px;
   float: center;
 }
-
+/*Submit form for contact page*/
 #submit {
   background-color: #4aaaa5;
   color: white;
