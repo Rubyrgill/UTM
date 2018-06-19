@@ -1,5 +1,8 @@
 The RESPONSIVE Basic-Portfolio Assignment
 
+Link to Site Page: https://rubyrgill.github.io/UTM/week2/Homework/Responsive-Portfolio/index.html
+
+
 Objective: Change the basic portfolio into a responsive layout, using media queries. 
 
 Resources Used:
