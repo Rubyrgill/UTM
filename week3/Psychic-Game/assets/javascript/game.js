@@ -50,7 +50,7 @@ var reset = function() {
 //when key is pressed, the following if conditioning events will occur...
 document.onkeyup = function(event) {
   var playerChoice = String.fromCharCode(event.keyCode).toLowerCase();
-  playerGuesses.push(playerChoice);
+  playerGuesses.push("   " + playerChoice);
 
   //if player's choice is the same as what the computer randomly selected then increase wins by 1 & alert
   if (playerChoice === computerChoice) {
